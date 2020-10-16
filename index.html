@@ -7,29 +7,52 @@
     <title>Chat App</title>
     <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
 
     <div class="container container-main">
-        <h2 class="main-title">Samuel Green</h2>
-        <p class="incoming-chat"></p>
-        <p class="incoming-chat"></p>
-        <img class="dog-img" src="" alt="">
-        <img class="dog-img" src="" alt="">
-        <img class="dog-img" src="" alt="">
-        <p class="response"></p>
-        <p class="response"></p>
-        <p class="incoming-chat"></p>
-        <p class="pricing"></p>
-        <p class="pricing"></p>
-        <form action="#" method="POST">
-            <label for="message"></label>
-            <input id="message" type="text" placeholder="type a message...">
-            <button class="btn" type="submit">></button>
-        </form>
-    </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="main-section">
+                    <div class="inside">
+                        <img class="main-image" src="images/avatar.jpg" alt="">
+                        <div class="name">
+                            <h2 class="main-title">Samuel Green</h2>
+                            <p class="main-subtitle">avaliable to walk</p>
+                        </div>
+                        <i id="dots" class="fas fa-ellipsis-v"></i>
+                    </div>
+                </div>
 
+                <div class="chat-section">
+                    <p class="incoming-chat">that sounds great. I'd be happy to discuss more.</p>
+                    <p class="incoming-chat">Could you send over some pics of your dog, please?</p>
+                    <img class="dog-img" src="images/dog-image-1.jpg" alt="">
+                    <img class="dog-img" src="images/dog-image-2.jpg" alt="">
+                    <img class="dog-img" src="images/dog-image-3.jpg" alt="">
+                    <p class="response">Here are a few pics.She's a happy girl.</p>
+                    <p class="response">Can you make it?</p>
+                    <p class="incoming-chat">She looks happy! The time we discussed works. How long shall I take her out for?</p>
+                    <p class="pricing">30 minute walk <strong>$29</strong></p>
+                    <p class="pricing">1 hour walk <strong>$49</strong></p>
+                    <form action="#" method="POST">
+                        <label for="message"></label>
+                        <input id="message" type="text" placeholder="type a message...">
+                        <button class="btn" type="submit"><i class="fas fa-arrow-circle-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <div class="container container-sub">
+            <h1>Simple booking</h1>
+            <p>
+                Saty in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
+            </p>
+        </div>
+    </div>
 
 </body>
 

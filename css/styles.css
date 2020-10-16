@@ -7,4 +7,91 @@
 body {
     margin: 0;
     font-family: 'Rubik', sans-serif;
+    background: #efefef;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+img {
+    width: 20%;
+    display: block;
+}
+
+
+/* .card {
+    background: rgb(210, 211, 196);
+    width: 90%;
+    margin: 1em auto;
+    padding: .5em;
+    border-radius: 1.5em;
+} */
+
+.card-inner {
+    background: #fff;
+    margin: .5em auto;
+    width: 95%;
+    border-radius: 2em;
+    padding: 1em;
+}
+
+.main-section {
+    text-align: left;
+    background: linear-gradient(to right, #8e05a3, #f779f7);
+    border-top-left-radius: 1.5em;
+    border-top-right-radius: 1.5em;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 1.3em;
+}
+
+.main-section::before,
+.main-section::after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 35px;
+    background: #fff;
+    top: .85%;
+    bottom: 20%;
+    right: 20%;
+    border-radius: 20px;
+}
+
+.inside {
+    display: flex;
+    margin-top: 1.5em;
+    margin-left: .5em;
+}
+
+.name {
+    margin-left: .5em;
+    color: rgb(244, 231, 250);
+}
+
+#dots {
+    margin-left: auto;
+    margin-top: 10px;
+    color: #fff;
+}
+
+.main-title {
+    font-size: .95rem;
+}
+
+.main-subtitle {
+    font-size: .75rem;
+}
+
+.main-image {
+    width: 15%;
+    border-radius: 50%;
+    border: 1px solid #fff;
+}
+
+.chat-section {
+    background: #efefef;
 }
