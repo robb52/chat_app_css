@@ -27,28 +27,31 @@
                 </div>
 
                 <div class="chat-section">
-                    <p class="incoming-chat">that sounds great. I'd be happy to discuss more.</p>
-                    <p class="incoming-chat">Could you send over some pics of your dog, please?</p>
-                    <img class="dog-img" src="images/dog-image-1.jpg" alt="">
-                    <img class="dog-img" src="images/dog-image-2.jpg" alt="">
-                    <img class="dog-img" src="images/dog-image-3.jpg" alt="">
-                    <p class="response">Here are a few pics.She's a happy girl.</p>
-                    <p class="response">Can you make it?</p>
-                    <p class="incoming-chat">She looks happy! The time we discussed works. How long shall I take her out for?</p>
-                    <p class="pricing">30 minute walk <strong>$29</strong></p>
-                    <p class="pricing">1 hour walk <strong>$49</strong></p>
-                    <form action="#" method="POST">
-                        <label for="message"></label>
-                        <input id="message" type="text" placeholder="type a message...">
-                        <button class="btn" type="submit"><i class="fas fa-arrow-circle-right"></i></button>
-                    </form>
+                    <div class="inside-chat">
+                        <p class="incoming-chat">That sounds great. I'd be happy to discuss more.</p>
+                        <p class="incoming-chat">Could you send over some pics of your dog, please?</p>
+                        <div class="dog-image-section">
+                            <img class="dog-img" src="images/dog-image-1.jpg" alt="">
+                            <img class="dog-img" src="images/dog-image-2.jpg" alt="">
+                            <img class="dog-img" src="images/dog-image-3.jpg" alt="">
+                        </div>
+                        <p class="response">Here are a few pics.She's a happy girl.</p>
+                        <p class="response">Can you make it?</p>
+                        <p class="incoming-chat">She looks happy! The time we discussed works. How long shall I take her out for?</p>
+                        <p class="pricing">30 minute walk <span>$29</span></p>
+                        <p class="pricing">1 hour walk <span>$49</span></p>
+                        <form class="message" action="">
+                            <input type="text" placeholder="Type a message..." name="type">
+                            <button type="submit"><i class="fas fa-chevron-right"></i></button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="container container-sub">
             <h1>Simple booking</h1>
-            <p>
+            <p class="sub-content">
                 Saty in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk has been completed you can rate your walker and book again all through the chat.
             </p>
         </div>
