@@ -28,10 +28,22 @@ img {
     display: block;
 }
 
+.card::before {
+    content: "";
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    /*background: #a436cb;*/
+    background: linear-gradient(#c432c4, #8e05a3);
+    z-index: -1;
+    top: -120px;
+    clip-path: circle(70% at -30% 42%);
+}
+
 .card-inner {
     background: #fff;
-    margin: .5em auto;
-    width: 95%;
+    margin: 5em auto;
+    width: 75vw;
     border-radius: 2em;
     padding: 1em;
 }
@@ -43,19 +55,19 @@ img {
     border-top-right-radius: 1.5em;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    padding: 1.3em;
+    padding: 1.1em;
 }
 
 .main-section::before,
 .main-section::after {
     position: absolute;
     content: "";
-    width: 200px;
-    height: 35px;
+    width: 37%;
+    height: 37px;
     background: #fff;
-    top: .85%;
+    top: 6.3%;
     bottom: 20%;
-    right: 23%;
+    right: 31%;
     border-radius: 20px;
 }
 
@@ -119,7 +131,7 @@ img {
 }
 
 .dog-img {
-    width: 50px;
+    width: 45px;
     border-radius: 10px;
     margin: 0 .5em;
 }
@@ -163,29 +175,6 @@ span {
     position: relative
 }
 
-
-/*input {
-    width: 90%;
-    padding-left: 10px;
-    border-radius: 3em;
-    border: none;
-    outline: none;
-    padding: 1.5em;
-    margin: 1em auto;
-}
-
-button {
-    background: #f779f7;
-    border: none;
-    height: 20px;
-    width: 20px;
-    border-radius: 100%;
-    outline: none;
-    text-align: center;
-    font-weight: bold;
-    padding: 2px;
-} */
-
 .container-sub {
     line-height: 1.5;
     text-align: center;
@@ -205,7 +194,7 @@ button {
 }
 
 input {
-    width: 80vw;
+    width: 60vw;
     padding: 15px;
     font-size: .75rem;
     border: 1px solid grey;
@@ -224,6 +213,5 @@ button {
     font-size: 1rem;
     border: 1px solid grey;
     border-left: none;
-    /* Prevent double borders */
     cursor: pointer;
 }
